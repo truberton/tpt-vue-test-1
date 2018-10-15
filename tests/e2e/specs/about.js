@@ -5,7 +5,7 @@ module.exports = {
       .waitForElementVisible('#app', 5000)
       .click('a[href="#/about"]')
       .pause(5000)
-      .assert.containsText('h1', 'This is an about page')
+      .assert.containsText('h1', 'See on about page')
       .end();
   },
 };
